@@ -10,6 +10,7 @@ const ArticleList = ({ posts }) => {
           title={post.title}
           date={post.date}
           preview={post.preview}
+          readingTime={post.minutes}
         />
       ))}
     </main>
